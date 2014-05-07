@@ -1,0 +1,74 @@
+/* ------ */
+/* layouts */
+/* ------ */
+
+#skills{
+	.jumbotron{
+		// padding-top: (@navbar-height + @navbar-margin-bottom + @jumbotron-padding);
+		background: url(../images/patt-custom-4c.jpg) fixed;
+	}
+	.navbar-blend-top{
+		background: url(../images/patt-custom-4c.jpg) fixed;
+	}
+}
+
+#homepage{
+
+	.navbar-brand>a{
+		&:hover, &:focus{
+			color: #000;
+			text-decoration: underline;
+		}
+	}
+
+	.navbar-default .navbar-toggle{
+		border-color: transparent;
+
+		&:hover, &:focus{
+			background: #fff;
+		}
+	}
+
+	.navbar-blend-top{
+		background: transparent;
+
+		.navbar-collapse, .navbar-form{
+			border: 0;
+			background: transparent;
+			text-align: center;
+		}
+		
+		.navbar-nav{
+			> li > a {
+	        	color: #000;
+	        	text-decoration: none;
+	        	&:hover{
+	        		color: #fff;
+	        	}
+	      	}
+			@media (max-width: @grid-float-breakpoint-max){
+				padding-bottom: (68px);
+
+				> li > a {
+		        	text-decoration: underline;
+		        	&:hover{
+		        		color: @brand-primary;
+		        	}
+		      	}
+
+			}
+	    }
+	}
+}
+
+#default, #portfolio, #portfolio-project{
+	.navbar-blend-top{
+		background: #EEE;
+	}
+}
+
+#simple{
+	.navbar-blend-top{
+		background: transparent;
+	}
+}

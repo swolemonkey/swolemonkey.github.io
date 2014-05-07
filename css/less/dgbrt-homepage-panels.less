@@ -1,0 +1,277 @@
+/*
+homepage
+*/
+
+/* all panels */
+.home-panel{
+	width: 100%;
+	text-align: center;
+	padding: @jumbotron-padding 0;
+}
+
+.panel-head{
+	
+}
+
+/* first panel */
+#panel-main{
+	background: url("../images/homepage-main-bg.jpg") center center no-repeat #FFCB04;
+	background-size: contain;
+	position: relative;
+	margin-top: -68px;
+	padding-top: 68px;
+	height: 100%;
+
+	h1{
+		font-family: "Playfair Display", Georgia, Times, serif;
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+
+	.scroll-for-more{
+		
+		// padding: @padding-large-vertical @padding-large-horizontal;
+		border: 1px solid black;
+
+		background: fade(@brand-primary, 75%);
+		// border-radius: 4px;
+
+		&:hover{
+			background: fade(#fff, 85%);
+			border: fade(#fff, 85%);
+			color: @brand-primary;
+		}
+
+		i{
+			vertical-align: middle;
+		}
+	}
+
+}
+
+/* portfolio panel */
+
+#panel-portfolio{
+
+	.panel-content{
+
+		position:relative;
+		padding-bottom: 0;
+
+		#portfolio-parallax{
+
+			#scene{
+  				max-width: 1200px;
+			}
+
+			img {
+			  display: block;
+			  width: 100%;
+			}
+
+		}
+
+		.btn-wrapper{
+			display:block;
+			position:absolute;
+			top: 50%;
+			margin-top: -20px;
+			width: 100%;
+			text-align:center;
+		}
+
+		.panel-footer-overlay{
+			
+			// display:block;
+			// position:relative;
+			// width: 100%;
+
+			// @media (min-width: @screen-sm-min){
+			// 	background: url("../images/homepage/uncompressed/portfolio-bg-1200-empty.jpg") center center no-repeat;
+			// 	min-height: 513px;
+			// }
+	
+			// img{
+			// 	max-width: 100%;
+			// 	display: block;
+			// 	margin: 0 auto;
+			// }
+
+		}
+
+	}
+
+// 	.panel-footer-overlay{
+// 	position: absolute;
+// 	display:block;
+// 	bottom: (2 * @padding-large-vertical);
+// 	text-align:center;
+// 	width: 100%;
+// }
+
+}
+
+/* skills panel */
+
+#panel-skills{
+	
+	background: url("../images/patt-custom-4c.jpg") repeat fixed;
+	
+	.row{
+		margin: 0;
+		margin-bottom: @line-height-computed;
+	}
+	
+	.col-xs-6{
+		margin-bottom: (2* @padding-large-vertical);
+	}
+
+	a.skill-link{
+
+		.skill-circle{
+
+			@media(max-width: @screen-xs-min){
+				padding: 5px;
+			}
+
+			h3{
+				font-size: ceil((@font-size-small * 0.85));
+			}
+
+			img {
+				
+				background: #fff;
+				border-radius: 50%;
+				border: 1px solid @brand-primary;
+				width: 100%;
+				height: 100%;
+				max-width: 210px;
+				max-height: 210px;
+				padding: 12.5%;
+
+			}
+
+		}
+
+		&:hover,
+		&:focus{
+
+			.skill-circle{
+
+				img {
+
+					border-width: 3px;
+
+				}
+
+			}
+
+		}
+
+	}
+	
+
+}
+
+/* testimonies panel */
+
+#panel-testimonies{
+
+	.testimony{
+		text-align: left;
+		margin: @padding-large-vertical 0;
+		width: 100%;
+		blockquote{
+			padding:0;
+			margin-bottom: @padding-large-vertical;
+			border:0;
+			&:before{
+				content: "“"
+			}
+			&:after{
+				content: "”";
+			}
+		}
+		img{
+			width: 48px;
+			height: 48px;
+			float:left;
+			margin-right: @padding-base-horizontal;
+		}
+		cite.author{
+			font-weight: @headings-lighter-font-weight;
+		}
+	}
+
+}
+
+/* contact panel */
+
+#panel-contact{
+	
+	border-bottom: 10px solid @brand-primary;
+
+	.contact-info{
+		font-size: (@font-size-base * 1.25);
+		i, span{
+			display: inline-block;
+			vertical-align: middle;
+		}
+		i{
+			font-size: 32px;
+			margin-right: @padding-xs-horizontal;
+			padding-top: 5px;
+		}
+		span{
+			font-weight: 900;
+		}
+		.icon-fa-mobile{
+			margin-right: -5px;
+		}
+
+		@media (min-width: @screen-sm-min){
+			display: inline-block;
+			padding: 0 @padding-large-horizontal;
+		}
+	}
+
+	footer{
+		margin-top: ( 4 * @padding-large-vertical);
+	}
+
+	a.icon-social{
+		color: #fff;
+		width: 48px;
+		height: 48px;
+		display: inline-block;
+		margin-right: @padding-xs-horizontal;
+		border: 0;
+		border-radius: 50%;
+		padding-top: 11px;
+		i{
+			font-size: 24px;
+		}
+		span{
+			text-indent: -9999px;
+			display:block;
+		}
+		&.twitter{
+			background-color: #77CBEF;
+		}
+		&.linkedin{
+			background-color: #1284C7;
+		}
+		&.facebook{
+			background-color: #537ABC;
+		}
+		&.google-plus{
+			background-color: #DD4B39;
+		}
+		&.github{
+			background-color: #666;
+		}
+		&:hover{
+			background-color: @brand-primary;
+		}
+	}
+}
