@@ -170,9 +170,12 @@ homepage
   text-align: center;
   padding: 30px 0;
 }
+
+
+
 /* first panel */
 #panel-main {
-  background: url("../images/homepage-main-bg.jpg") center center no-repeat #ffcb04;
+  background: url("../images/homepage-main-bg.jpg") center center no-repeat #ffcb04 fixed;
   background-size: contain;
   position: relative;
   margin-top: -68px;
@@ -185,14 +188,41 @@ homepage
   text-transform: uppercase;
   color: #fff;
 }
-#panel-main .scroll-for-more {
-  border: 1px solid black;
-  background: rgba(255, 203, 4, 0.75);
+
+#panel-main p{
+  color: #fff;
 }
-#panel-main .scroll-for-more:hover {
+
+#panel-main .call-to-action {
+  border: 2px solid white;
+  background: rgba(255, 203, 4, 0.75);
+  color: white;
+}
+
+#panel-main .call-to-action:hover {
   background: rgba(255, 255, 255, 0.85);
-  border: rgba(255, 255, 255, 0.85);
-  color: #ffcb04;
+  border: 2px rgba(255, 255, 255, 0.85);
+  color: black;
+}
+#panel-main .call-to-action i {
+  vertical-align: middle;
+}
+
+#panel-main .scroll-for-more {
+  border: 0px solid black;
+  background: transparent;
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#panel-main .scroll-for-more:hover {
+  font-weight: bold;
+  color: black;
+  background: transparent;
 }
 #panel-main .scroll-for-more i {
   vertical-align: middle;
