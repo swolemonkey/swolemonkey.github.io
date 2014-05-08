@@ -185,7 +185,6 @@ homepage
 }
 .info-image {
   
-  margin: 20px;
   margin-bottom: 10px;
   width: 100%;
   height: 100%;
@@ -270,11 +269,15 @@ homepage
 /* portfolio panel */
 #panel-portfolio .panel-content {
   position: relative;
-  padding-bottom: 0;
+  padding-bottom: 40px;
+
 }
 #panel-portfolio .panel-content #portfolio-parallax #scene {
   max-width: 1200px;
 }
+
+
+
 #panel-portfolio .panel-content #portfolio-parallax img {
   display: block;
   width: 100%;
@@ -288,6 +291,14 @@ homepage
   width: 100%;
   text-align: center;
 }
+
+@media (max-width: 480){
+  #panel-portfolio .panel-content #portfolio-parallax img {
+    margin-top: -30px;
+    overflow: hidden;
+  }
+}
+
 /* skills panel */
 #panel-skills {
   background: white;
@@ -702,13 +713,15 @@ vision
     margin-bottom: 5px;
     color: black;
     border-width: 1px;
-    width: 50%;
+    width: 90%;
     padding: 20px 32px;
+    font-size: auto;
   }
   .btn-peanut:hover {
     border-color: black;
     font-weight: 600;
     border-width: 1px;
+
   }
 
 
@@ -720,8 +733,9 @@ vision
     margin-top: 5px;
     margin-bottom: 5px;
     border-width: 1px;
-    width: 50%;
+    width: 90%;
     padding: 20px 32px;
+    font-size: auto;
   }
 
     .btn-peanut-action:hover { 
@@ -730,6 +744,16 @@ vision
     background-color: white;
     border-width: 1px;
   }
+
+@media(max-width: 480px){
+.btn-peanut {
+  width: 90%;
+  }
+
+  .btn-peanut-action {
+  width: 90%;
+  }
+}
 
 .jumbotron#about {
   text-align: center;
@@ -829,6 +853,7 @@ vision
   .btn-peanut {
     border-color: black;
     padding: 20px 32px;
+    font-size: auto;
   }
   .btn-peanut:hover {
     border-color: black;
@@ -843,6 +868,7 @@ vision
     color: white;
     background-color: #6944b2;
     padding: 20px 32px;
+    font-size: auto;
   }
 
     .btn-peanut-action:hover {
