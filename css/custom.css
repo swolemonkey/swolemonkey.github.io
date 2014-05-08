@@ -116,7 +116,7 @@ footer.main {
 }
 #homepage .navbar-brand > a:hover,
 #homepage .navbar-brand > a:focus {
-  color: #000;
+  color: #666666;
   text-decoration: underline;
 }
 #homepage .navbar-default .navbar-toggle {
@@ -136,7 +136,7 @@ footer.main {
   text-align: center;
 }
 #homepage .navbar-blend-top .navbar-nav > li > a {
-  color: #000;
+  color: #1f1f1f;
   text-decoration: none;
 }
 #homepage .navbar-blend-top .navbar-nav > li > a:hover {
@@ -161,6 +161,11 @@ footer.main {
 #simple .navbar-blend-top {
   background: transparent;
 }
+
+.logo-caption{
+  color: #1f1f1f;
+}
+
 /*
 homepage
 */
@@ -780,7 +785,7 @@ vision
   }
   .btn-peanut:hover {
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     font-weight: 600;
   }
 
@@ -793,7 +798,7 @@ vision
   }
 
     .btn-peanut-action:hover {
-    border-width: 2px;
+    border-width: 1px;
     border-color: #6944b2;
     color: #6944b2;
     background-color: white;
