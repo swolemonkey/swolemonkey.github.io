@@ -383,6 +383,7 @@ homepage
 /* social panel */
 #panel-social {
   background: url("../images/social-bg.jpg") no-repeat fixed; 
+  background-size: cover;
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px; 
