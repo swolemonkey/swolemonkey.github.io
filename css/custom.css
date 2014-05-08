@@ -163,7 +163,7 @@ footer.main {
 }
 
 .logo-caption{
-  color: #b2beb5;
+  color: #1f1f1f;
 }
 
 /*
@@ -326,7 +326,8 @@ homepage
 
 /* trends panel */
 #panel-trends {
-  background: url("../images/patt-custom-4c.jpg") repeat fixed;
+  background: url("../images/trends-bg.png") repeat fixed; 
+
 }
 #panel-trends .row {
   margin: 0;
@@ -335,6 +336,11 @@ homepage
 #panel-trends .col-xs-6 {
   margin-bottom: 20px;
 }
+
+#panel-trends .col-md-6 {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
 @media (max-width: 480px) {
   #panel-trends a.trends-link .trends-circle {
     padding: 5px;
@@ -358,6 +364,7 @@ homepage
 #panel-trends a.trends-link:focus .trends-circle img {
   border-width: 3px;
 }
+
 
 /* social panel */
 #panel-social {
