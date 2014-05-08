@@ -2,10 +2,10 @@ source:      .
 destination: ./_site
 exclude: ['*.less', 'node_modules']
 
-url: http://www.dgbrt.fr
+url: https://swolemonkey.github.io
 
-name: Webdesigner Freelance &agrave; Lille, int&eacute;grateur front-end, Dagobert Renouf
-description: Design UI / UX et code front-end html5 / css3.
+name: Peanut
+description: An app for comparing the things in your life.
 permalink: none
 
 sitemap:
