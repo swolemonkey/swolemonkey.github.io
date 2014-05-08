@@ -382,14 +382,22 @@ homepage
 
 /* social panel */
 #panel-social {
-  background: url("../images/patt-custom-4c.jpg") repeat fixed;
+  background: url("../images/social-bg.jpg") no-repeat fixed; 
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px; 
 }
 #panel-social .row {
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 #panel-social .col-xs-6 {
   margin-bottom: 20px;
+}
+#panel-social .col-md-6 {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 @media (max-width: 480px) {
   #panel-social a.social-link .social-circle {
@@ -412,6 +420,16 @@ homepage
 #panel-social a.social-link:hover .social-circle img,
 #panel-social a.social-link:focus .social-circle img {
   border-width: 3px;
+}
+
+#panel-social .container {
+  height: 100%;
+}
+
+#panel-social .panel-content {
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 /* testimonies panel */
@@ -681,6 +699,7 @@ vision
     color: black;
     border-width: 1px;
     width: 50%;
+    padding: 20px 32px;
   }
   .btn-peanut:hover {
     border-color: black;
@@ -698,11 +717,12 @@ vision
     margin-bottom: 5px;
     border-width: 1px;
     width: 50%;
+    padding: 20px 32px;
   }
 
     .btn-peanut-action:hover { 
     border-color: #6944b2;
-    color: #6944b2;
+    color: black;
     background-color: white;
     border-width: 1px;
   }
@@ -804,6 +824,7 @@ vision
 
   .btn-peanut {
     border-color: black;
+    padding: 20px 32px;
   }
   .btn-peanut:hover {
     border-color: black;
@@ -817,12 +838,13 @@ vision
     border-color: #6944b2;
     color: white;
     background-color: #6944b2;
+    padding: 20px 32px;
   }
 
     .btn-peanut-action:hover {
     border-width: 1px;
     border-color: #6944b2;
-    color: #6944b2;
+    color: black;
     background-color: white;
   }
 
