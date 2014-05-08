@@ -342,8 +342,8 @@ homepage
 
 #panel-trends .col-md-6 {
   background-color: rgba(255, 255, 255, 0.85);
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 18%;
+  padding-bottom: 18%;
 }
 
 @media (max-width: 480px) {
@@ -397,8 +397,8 @@ homepage
 }
 #panel-social .col-md-6 {
   background-color: rgba(255, 255, 255, 0.85);
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 18%;
+  padding-bottom: 18%;
 }
 @media (max-width: 480px) {
   #panel-social a.social-link .social-circle {
