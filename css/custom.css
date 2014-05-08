@@ -327,11 +327,14 @@ homepage
 /* trends panel */
 #panel-trends {
   background: url("../images/trends-bg.png") repeat fixed; 
+  padding-top: 0px;
+  padding-bottom: 0px; 
 
 }
+
 #panel-trends .row {
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 #panel-trends .col-xs-6 {
   margin-bottom: 20px;
@@ -339,6 +342,8 @@ homepage
 
 #panel-trends .col-md-6 {
   background-color: rgba(255, 255, 255, 0.85);
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 @media (max-width: 480px) {
@@ -365,6 +370,15 @@ homepage
   border-width: 3px;
 }
 
+#panel-trends .container {
+  height: 100%;
+}
+
+#panel-trends .panel-content {
+  height: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 
 /* social panel */
 #panel-social {
