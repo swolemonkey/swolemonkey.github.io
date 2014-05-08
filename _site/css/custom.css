@@ -87,7 +87,7 @@ body {
     text-align: center;
   }
   .navbar-blend-top .navbar-nav > li > a {
-    color: #ffcb04;
+    color: #6944b2;
   }
   .navbar-blend-top .navbar-nav > li > a:hover {
     text-decoration: underline;
@@ -150,7 +150,7 @@ footer.main {
     text-decoration: underline;
   }
   #homepage .navbar-blend-top .navbar-nav > li > a:hover {
-    color: #ffcb04;
+    color: #6944b2;
   }
 }
 #default .navbar-blend-top,
@@ -195,6 +195,13 @@ homepage
   min-height: 100%;
   overflow: visible;
 }
+
+@media (max-width: 480px) {
+  #panel-main{
+    background: url("../images/homepage-main-bg.png") center center no-repeat white relative;
+  }
+}
+
 .colour-layer {
   background-color: rgba(105, 68, 178, 0.80);
   position: absolute;
@@ -368,7 +375,7 @@ homepage
 #panel-social a.social-link .social-circle img {
   background: #fff;
   border-radius: 50%;
-  border: 1px solid #ffcb04;
+  border: 1px solid #6944b2;
   width: 100%;
   height: 100%;
   max-width: 210px;
@@ -546,8 +553,8 @@ portfolio-webdesigner
 #project-wrapper .project .thumbnail a img:hover,
 #project-wrapper .project .thumbnail img:focus,
 #project-wrapper .project .thumbnail a img:focus {
-  background-color: #ffcb04;
-  border-color: #ffcb04;
+  background-color: #6944b2;
+  border-color: #6944b2;
 }
 #project-wrapper .project .thumbnail .caption {
   padding: 0;
@@ -615,7 +622,7 @@ competences
   text-align: center;
 }
 .skill .skill-icon img {
-  border: 1px solid #ffcb04;
+  border: 1px solid #6944b2;
   border-radius: 100%;
   padding: 20px;
 }
@@ -639,6 +646,40 @@ contact
 /*
 vision
 */
+
+ .btn-peanut {
+    border-color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    border-width: 1px;
+    width: 50%;
+  }
+  .btn-peanut:hover {
+    border-color: black;
+    font-weight: 600;
+    border-width: 1px;
+  }
+
+
+  
+  .btn-peanut-action {
+    border-color: #6944b2;
+    color: white;
+    background-color: #6944b2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    width: 50%;
+  }
+
+    .btn-peanut-action:hover { 
+    border-color: #6944b2;
+    color: #6944b2;
+    background-color: white;
+    border-width: 1px;
+  }
+
 .jumbotron#about {
   text-align: center;
   background-color: transparent;
@@ -733,15 +774,31 @@ vision
     border-radius: 6px;
     font-weight: 300;
   }
-  .btn-dgbrt.content {
-    padding: 5px 25px;
-    font-size: 16px;
+
+  .btn-peanut {
+    border-color: black;
+  }
+  .btn-peanut:hover {
+    border-color: black;
+    border-width: 2px;
+    font-weight: 600;
+  }
+
+
+  
+  .btn-peanut-action {
+    border-color: #6944b2;
     color: white;
-    line-height: 2.14285714;
-    border-radius: 6px;
-    font-weight: 300;
     background-color: #6944b2;
   }
+
+    .btn-peanut-action:hover {
+    border-width: 2px;
+    border-color: #6944b2;
+    color: #6944b2;
+    background-color: white;
+  }
+
   .home-panel {
     padding: 37.5px 0;
   }
