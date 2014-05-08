@@ -163,7 +163,7 @@ footer.main {
 }
 
 .logo-caption{
-  color: #1f1f1f;
+  color: #b2beb5;
 }
 
 /*
@@ -252,11 +252,12 @@ homepage
   right: 0px;
   margin-left: auto;
   margin-right: auto;
+  color: white;
 }
 
 #panel-main .scroll-for-more:hover {
   font-weight: 600;
-  color: black;
+  color: white;
   background: transparent;
 }
 #panel-main .scroll-for-more i {
