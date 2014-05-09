@@ -210,7 +210,6 @@ homepage
   }
 }
 
-
 .colour-layer {
   background-color: rgba(105, 68, 178, 0.80);
   position: absolute;
@@ -219,13 +218,7 @@ homepage
   top: 0px;
   left: 0px;
 }
-@media (max-width: 480px) {
-  .colour-layer {
-     background: url("../images/homepage-main-bg-tint.png") center center no-repeat white fixed;
-     background-size: auto, 100%;
-     background-color: rgba(105, 68, 178, 0.80);
-  }
-}
+
 
 #panel-main h1 {
   font-family: "Open Sans", Georgia, Times, serif;
