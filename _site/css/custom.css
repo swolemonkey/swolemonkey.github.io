@@ -221,8 +221,8 @@ homepage
 }
 @media (max-width: 480px) {
   .colour-layer {
-     background: url("../images/homepage-main-bg.png") center center no-repeat white fixed;
-     background-size: cover;
+     background: url("../images/homepage-main-bg-tint.png") center center no-repeat white fixed;
+     background-size: auto, 100%;
      background-color: rgba(105, 68, 178, 0.80);
   }
 }
