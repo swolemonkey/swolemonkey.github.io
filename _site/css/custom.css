@@ -266,23 +266,42 @@ homepage
 #panel-main .scroll-for-more i {
   vertical-align: middle;
 }
-/* portfolio panel */
+/* parallax panel */
+
+#panel-portfolio{
+  padding-bottom: 60px;
+}
+
 #panel-portfolio .panel-content {
   position: relative;
   padding-bottom: 40px;
+  padding-top: 40px
 
 }
+@media (max-width: 480px){
+  #panel-portfolio .panel-content {
+  padding-top: 20px
+  }
+}
+
 #panel-portfolio .panel-content #portfolio-parallax #scene {
   max-width: 1200px;
 }
-
-
 
 #panel-portfolio .panel-content #portfolio-parallax img {
   display: block;
   width: 100%;
   margin-top: 50px;
 }
+
+@media (max-width: 480px){
+  #panel-portfolio .panel-content #portfolio-parallax img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  }
+}
+
 #panel-portfolio .panel-content .btn-wrapper {
   display: block;
   position: absolute;
@@ -292,14 +311,8 @@ homepage
   text-align: center;
 }
 
-@media (max-width: 480){
-  #panel-portfolio .panel-content #portfolio-parallax img {
-    margin-top: -30px;
-    overflow: hidden;
-  }
-}
 
-/* skills panel */
+/* business panel */
 #panel-skills {
   background: white;
 }
@@ -446,6 +459,43 @@ homepage
   padding-top: 0px;
   padding-bottom: 0px;
 }
+
+#panel-social a.icon-social {
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 0;
+  border-radius: 50%;
+  padding-top: 11px;
+}
+#panel-social a.icon-social i {
+  font-size: 24px;
+}
+#panel-social a.icon-social span {
+  text-indent: -9999px;
+  display: block;
+}
+#panel-social a.icon-social.twitter {
+  background-color: #77CBEF;
+}
+#panel-social a.icon-social.linkedin {
+  background-color: #1284C7;
+}
+#panel-social a.icon-social.facebook {
+  background-color: #537ABC;
+}
+#panel-social a.icon-social.google-plus {
+  background-color: #DD4B39;
+}
+#panel-social a.icon-social.github {
+  background-color: #666;
+}
+#panel-social a.icon-social:hover {
+  background-color: #6944b2;
+}
+
 
 /* testimonies panel */
 #panel-testimonies .testimony {
@@ -714,7 +764,7 @@ vision
     color: black;
     border-width: 1px;
     width: 90%;
-    padding: 20px 32px;
+    padding: 10px 22px;
     font-size: auto;
   }
   .btn-peanut:hover {
@@ -734,7 +784,7 @@ vision
     margin-bottom: 5px;
     border-width: 1px;
     width: 90%;
-    padding: 20px 32px;
+    padding: 10px 22px;
     font-size: auto;
   }
 
@@ -850,33 +900,7 @@ vision
     font-weight: 300;
   }
 
-  .btn-peanut {
-    border-color: black;
-    padding: 20px 32px;
-    font-size: auto;
-  }
-  .btn-peanut:hover {
-    border-color: black;
-    border-width: 1px;
-    font-weight: 600;
-  }
-
-
   
-  .btn-peanut-action {
-    border-color: #6944b2;
-    color: white;
-    background-color: #6944b2;
-    padding: 20px 32px;
-    font-size: auto;
-  }
-
-    .btn-peanut-action:hover {
-    border-width: 1px;
-    border-color: #6944b2;
-    color: black;
-    background-color: white;
-  }
 
   .home-panel {
     padding: 37.5px 0;
@@ -907,6 +931,8 @@ vision
   #panel-contact a.icon-social i {
     font-size: 28px;
   }
+
+
 }
 @media (min-width: 992px) {
   body {
