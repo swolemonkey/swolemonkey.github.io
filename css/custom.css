@@ -109,10 +109,10 @@ footer.main {
 /* layouts */
 /* ------ */
 #skills .jumbotron {
-  background: url(../images/patt-custom-4c.jpg) fixed;
+  background: url(../images/patt-custom-4c2.png) fixed;
 }
 #skills .navbar-blend-top {
-  background: url(../images/patt-custom-4c.jpg) fixed;
+  background: url(../images/patt-custom-4c2.png) fixed;
 }
 #homepage .navbar-brand > a:hover,
 #homepage .navbar-brand > a:focus {
@@ -1033,6 +1033,7 @@ button.scroll-for-more {
 #panel-contact a.icon-social {
   -webkit-transition: background-color 150ms;
   transition: background-color 150ms;
+
 }
 .nav-pills li {
   -webkit-transition: all 150ms;
@@ -1042,4 +1043,10 @@ button.scroll-for-more {
 #project-wrapper .project .thumbnail a img {
   -webkit-transition: all 150ms;
   transition: all 150ms;
+}
+
+.container-line {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d9d9d9;
 }
