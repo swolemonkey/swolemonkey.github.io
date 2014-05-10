@@ -355,7 +355,7 @@ homepage
 
 /* trends panel */
 #panel-trends {
-  background: url("../images/trends-bg.png") repeat fixed; 
+  background: url("../images/trends-bg3.png") repeat fixed; 
   padding-top: 0px;
   padding-bottom: 0px; 
 
@@ -370,9 +370,22 @@ homepage
 }
 
 #panel-trends .col-md-6 {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #6944b2;
   padding-top: 18%;
   padding-bottom: 18%;
+}
+
+#panel-trends .col-md-6 h2 {
+  color: white;
+  font-weight: 600;
+}
+#panel-trends .col-md-6 p {
+  color: white;
+}
+
+#panel-trends .btn-peanut {
+  border-color: white;
+  color: white;
 }
 
 @media (max-width: 480px) {
@@ -409,9 +422,10 @@ homepage
   padding-bottom: 0px;
 }
 
+
 /* social panel */
 #panel-social {
-  background: url("../images/social-bg.jpg") no-repeat fixed; 
+  background: url("../images/shopping2.jpg") no-repeat fixed; 
   background-size: cover;
   width: 100%;
   padding-top: 0px;
@@ -773,9 +787,8 @@ vision
     border-color: black;
     font-weight: 600;
     border-width: 1px;
-
+    background-color: rgba(195, 180, 224, 0.50);
   }
-
 
   
   .btn-peanut-action {
@@ -793,7 +806,7 @@ vision
     .btn-peanut-action:hover { 
     border-color: #6944b2;
     color: black;
-    background-color: white;
+    background-color: rgba(105, 68, 178, 0.20);
     border-width: 1px;
   }
 
