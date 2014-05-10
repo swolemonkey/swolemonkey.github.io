@@ -109,10 +109,10 @@ footer.main {
 /* layouts */
 /* ------ */
 #skills .jumbotron {
-  background: url(../images/patt-custom-4c.jpg) fixed;
+  background: url(../images/patt-custom-4c2.png) fixed;
 }
 #skills .navbar-blend-top {
-  background: url(../images/patt-custom-4c.jpg) fixed;
+  background: url(../images/patt-custom-4c2.png) fixed;
 }
 #homepage .navbar-brand > a:hover,
 #homepage .navbar-brand > a:focus {
@@ -177,16 +177,21 @@ homepage
 }
 .info {
   font-size: 17px;
-  text-align: justify;
-  margin: 20px;
+  text-align: left;
+  margin: 40px;
   margin-bottom: 40px;
+  vertical-align: center;
 }
 .info-image {
   
-  margin: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   width: 100%;
   height: 100%;
+  padding: 5%;
+  vertical-align: center;
+}
+.info-image img{
+  vertical-align: center;
 }
 
 /* first panel */
@@ -263,19 +268,42 @@ homepage
 #panel-main .scroll-for-more i {
   vertical-align: middle;
 }
-/* portfolio panel */
+/* parallax panel */
+
+#panel-portfolio{
+  padding-bottom: 60px;
+}
+
 #panel-portfolio .panel-content {
   position: relative;
-  padding-bottom: 0;
+  padding-bottom: 40px;
+  padding-top: 40px
+
 }
+@media (max-width: 480px){
+  #panel-portfolio .panel-content {
+  padding-top: 20px
+  }
+}
+
 #panel-portfolio .panel-content #portfolio-parallax #scene {
   max-width: 1200px;
 }
+
 #panel-portfolio .panel-content #portfolio-parallax img {
   display: block;
   width: 100%;
   margin-top: 50px;
 }
+
+@media (max-width: 480px){
+  #panel-portfolio .panel-content #portfolio-parallax img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  }
+}
+
 #panel-portfolio .panel-content .btn-wrapper {
   display: block;
   position: absolute;
@@ -284,13 +312,15 @@ homepage
   width: 100%;
   text-align: center;
 }
-/* skills panel */
+
+
+/* business panel */
 #panel-skills {
   background: white;
 }
 #panel-skills .row {
   margin: 0;
-  margin-bottom: 22px;
+  margin-bottom: 0px;
 }
 #panel-skills .col-xs-6 {
   margin-bottom: 20px;
@@ -305,10 +335,9 @@ homepage
 }
 #panel-skills a.skill-link .skill-circle img {
   background: #fff;
-  border-radius: 50%;
   border: 1px solid #6944b2;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   max-width: 210px;
   max-height: 210px;
   padding: 12.5%;
@@ -433,6 +462,43 @@ homepage
   padding-bottom: 0px;
 }
 
+#panel-social a.icon-social {
+  color: #fff;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  margin-right: 5px;
+  border: 0;
+  border-radius: 50%;
+  padding-top: 11px;
+}
+#panel-social a.icon-social i {
+  font-size: 24px;
+}
+#panel-social a.icon-social span {
+  text-indent: -9999px;
+  display: block;
+}
+#panel-social a.icon-social.twitter {
+  background-color: #77CBEF;
+}
+#panel-social a.icon-social.linkedin {
+  background-color: #1284C7;
+}
+#panel-social a.icon-social.facebook {
+  background-color: #537ABC;
+}
+#panel-social a.icon-social.google-plus {
+  background-color: #DD4B39;
+}
+#panel-social a.icon-social.github {
+  background-color: #666;
+}
+#panel-social a.icon-social:hover {
+  background-color: #6944b2;
+}
+
+
 /* testimonies panel */
 #panel-testimonies .testimony {
   text-align: left;
@@ -462,7 +528,7 @@ homepage
 /* contact panel */
 #panel-contact {
   border-bottom: 10px solid #6944b2;
-  background-color: #e3dcf2;
+  background-color: #d2d2d2;
 
 }
 #panel-contact .contact-info {
@@ -669,7 +735,7 @@ competences
 }
 .skill .skill-icon img {
   border: 1px solid #6944b2;
-  border-radius: 100%;
+  border-radius: 50%;
   padding: 20px;
 }
 /*
@@ -699,13 +765,15 @@ vision
     margin-bottom: 5px;
     color: black;
     border-width: 1px;
-    width: 50%;
-    padding: 20px 32px;
+    width: 90%;
+    padding: 10px 22px;
+    font-size: auto;
   }
   .btn-peanut:hover {
     border-color: black;
     font-weight: 600;
     border-width: 1px;
+
   }
 
 
@@ -717,8 +785,9 @@ vision
     margin-top: 5px;
     margin-bottom: 5px;
     border-width: 1px;
-    width: 50%;
-    padding: 20px 32px;
+    width: 90%;
+    padding: 10px 22px;
+    font-size: auto;
   }
 
     .btn-peanut-action:hover { 
@@ -727,6 +796,16 @@ vision
     background-color: white;
     border-width: 1px;
   }
+
+@media(max-width: 480px){
+.btn-peanut {
+  width: 90%;
+  }
+
+  .btn-peanut-action {
+  width: 90%;
+  }
+}
 
 .jumbotron#about {
   text-align: center;
@@ -823,31 +902,7 @@ vision
     font-weight: 300;
   }
 
-  .btn-peanut {
-    border-color: black;
-    padding: 20px 32px;
-  }
-  .btn-peanut:hover {
-    border-color: black;
-    border-width: 1px;
-    font-weight: 600;
-  }
-
-
   
-  .btn-peanut-action {
-    border-color: #6944b2;
-    color: white;
-    background-color: #6944b2;
-    padding: 20px 32px;
-  }
-
-    .btn-peanut-action:hover {
-    border-width: 1px;
-    border-color: #6944b2;
-    color: black;
-    background-color: white;
-  }
 
   .home-panel {
     padding: 37.5px 0;
@@ -878,6 +933,8 @@ vision
   #panel-contact a.icon-social i {
     font-size: 28px;
   }
+
+
 }
 @media (min-width: 992px) {
   body {
@@ -976,6 +1033,7 @@ button.scroll-for-more {
 #panel-contact a.icon-social {
   -webkit-transition: background-color 150ms;
   transition: background-color 150ms;
+
 }
 .nav-pills li {
   -webkit-transition: all 150ms;
@@ -985,4 +1043,10 @@ button.scroll-for-more {
 #project-wrapper .project .thumbnail a img {
   -webkit-transition: all 150ms;
   transition: all 150ms;
+}
+
+.container-line {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 1px solid #d9d9d9;
 }
