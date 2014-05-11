@@ -202,6 +202,9 @@ homepage
 #panel-main {
   background: url("../images/homepage-main-bg.png") center center no-repeat white fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   position: relative;
   margin-top: -68px;
   padding-top: 68px;
@@ -210,11 +213,13 @@ homepage
   overflow: visible;
 }
 
+/*
 @media (max-width: 480px) {
   #panel-main{
     background: url("../images/homepage-main-bg.png") center center no-repeat white relative;
   }
 }
+*/
 
 .colour-layer {
   background-color: rgba(105, 68, 178, 0.80);
@@ -363,7 +368,17 @@ homepage
   padding-top: 0px;
   padding-bottom: 0px; 
 
+
 }
+
+/*
+@media (max-width: 480px){
+  #panel-trends {
+    background: url("../images/trends-bg3.png") repeat;
+    height: auto; 
+  }
+}
+*/
 
 #panel-trends .row {
   margin: 0;
@@ -374,7 +389,7 @@ homepage
 }
 
 #panel-trends .col-md-6 {
-  background-color: #6944b2;
+  background-color: rgba(105, 68, 178, 0.85);
   padding-top: 18%;
   padding-bottom: 18%;
 }
@@ -397,6 +412,7 @@ homepage
     padding: 5px;
   }
 }
+
 #panel-trends a.trends-link .trends-circle h3 {
   font-size: 12px;
 }
@@ -434,7 +450,20 @@ homepage
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
+/*
+@media (max-width: 480px) {
+  #panel-social{
+    background: url("../images/shopping2.jpg") no-repeat; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  }
+}
+*/
 #panel-social .row {
   margin: 0;
   margin-bottom: 0px;
