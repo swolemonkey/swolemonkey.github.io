@@ -371,14 +371,15 @@ homepage
 
 }
 
-/*
+
 @media (max-width: 480px){
   #panel-trends {
     background: url("../images/trends-bg3.png") repeat;
     height: auto; 
+    
   }
 }
-*/
+
 
 #panel-trends .row {
   margin: 0;
