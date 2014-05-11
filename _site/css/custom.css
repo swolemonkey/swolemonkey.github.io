@@ -63,8 +63,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
+
 }
 /* custom navbar that blends with the content below, without being position:fixed */
 .navbar-blend-top {
@@ -1100,4 +1099,8 @@ button.scroll-for-more {
   padding-top: 10px;
   padding-bottom: 20px;
   border-top: 1px solid #d9d9d9;
+}
+
+.form-padding{
+  margin: 10px;
 }

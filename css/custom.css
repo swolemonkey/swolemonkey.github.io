@@ -1100,3 +1100,7 @@ button.scroll-for-more {
   padding-bottom: 20px;
   border-top: 1px solid #d9d9d9;
 }
+
+.form-padding{
+  margin: 10px;
+}
