@@ -63,6 +63,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 /* custom navbar that blends with the content below, without being position:fixed */
 .navbar-blend-top {
@@ -111,7 +113,7 @@ footer.main {
 #skills .jumbotron {
   background: url(../images/patt-custom-4c2.png) fixed;
   color: white;
-  
+
 }
 #skills .navbar-blend-top {
   background: url(../images/patt-custom-4c2.png) fixed;
