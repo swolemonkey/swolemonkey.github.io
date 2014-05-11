@@ -200,7 +200,7 @@ homepage
 
 /* first panel */
 #panel-main {
-  background: url("../images/homepage-main-bg.png") center center no-repeat white fixed;
+  background: url("../images/homepage-main-bg-tint.png") center center no-repeat white fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -219,7 +219,7 @@ homepage
     background: url("../images/homepage-main-bg.png") center center no-repeat white relative;
   }
 }
-*/
+
 
 .colour-layer {
   background-color: rgba(105, 68, 178, 0.80);
@@ -229,7 +229,7 @@ homepage
   top: 0px;
   left: 0px;
 }
-
+*/
 
 #panel-main h1 {
   font-family: "Open Sans", Georgia, Times, serif;
@@ -376,7 +376,7 @@ homepage
   #panel-trends {
     background: url("../images/trends-bg3.png") repeat;
     height: auto; 
-    
+
   }
 }
 
@@ -390,11 +390,11 @@ homepage
 }
 
 #panel-trends .col-md-6 {
-  background-color: rgba(105, 68, 178, 0.85);
+  background-color: rgba(255, 255, 255, 0.85);
   padding-top: 18%;
   padding-bottom: 18%;
 }
-
+/*
 #panel-trends .col-md-6 h2 {
   color: white;
   font-weight: 600;
@@ -407,6 +407,7 @@ homepage
   border-color: white;
   color: white;
 }
+*/
 
 @media (max-width: 480px) {
   #panel-trends a.trends-link .trends-circle {
@@ -458,7 +459,7 @@ homepage
 
 @media (max-width: 480px) {
   #panel-social{
-    background: url("../images/shopping2.jpg") no-repeat; 
+    background: url("../images/shoppingsmall.jpg") no-repeat; 
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
