@@ -213,14 +213,17 @@ homepage
   overflow: visible;
 }
 
-/*
+
 @media (max-width: 480px) {
   #panel-main{
-    background: url("../images/homepage-main-bg.png") center center no-repeat white relative;
+    background: url("../images/homepage-main-bg-tint.png") center center no-repeat white;
+        -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   }
 }
 
-
+/*
 .colour-layer {
   background-color: rgba(105, 68, 178, 0.80);
   position: absolute;
